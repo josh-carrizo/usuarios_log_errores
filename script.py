@@ -21,8 +21,9 @@ with open('usuarios.txt') as usuarios:
                 log.seek(0)
                 print(log.read())
                 
-        linea = usuarios.readline()        
-            
+        linea = usuarios.readline()       
+        
+print(f'Cantidad usuarios: {len(instancias)}')                    
 print("""::::::::::::::::::::: Detalle de usuarios::::::::::::::::::::::::::::::
       
 Nombre          Apellido             Email                     Genero 
