@@ -11,13 +11,13 @@ with open('usuarios.txt') as usuarios:
             instancias.append(
                 Usuario(usuario.get("nombre"), usuario.get("apellido"),usuario.get("email"), usuario.get("genero"))
             )
-            linea=usuarios.readline()
+        
         except Exception as e:
             with open("error.log", "a+") as log:
                 log.seek(0)
                 print(log.read())
                 now = datetime.now()
-                log.write(f"[{now.strftime('%Y-%m-%d %H:%M:%S')}] ERROR: {type(e)}, Linea{linea}\n")
+                log.write(f"[{now.strftime('%Y-%m-%d %H:%M:%S')}] ERROR: {type(e)}, Linea{linea}")
                 log.seek(0)
                 print(log.read())
                 

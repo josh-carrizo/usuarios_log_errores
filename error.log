@@ -4,3 +4,12 @@ ERROR!!!:Expecting property name enclosed in double quotes: line 1 column 40 (ch
 
 [2024-09-02 21:04:11] ERROR: <class 'json.decoder.JSONDecodeError'>, Linea{"nombre": "Marj", "apellido": "Impy", email": "mimpy5@youku.com", "genero": "Non-binary"}
 
+[2024-09-02 21:16:41] ERROR: <class 'json.decoder.JSONDecodeError'>, Linea{"nombre": "Nissy", "apellido": "Dell Casa", "email": "ndellcasa2@godaddy.com", "genero": "Female"
+
+[2024-09-02 21:16:41] ERROR: <class 'json.decoder.JSONDecodeError'>, Linea{"nombre": "Marj", "apellido": "Impy", email": "mimpy5@youku.com", "genero": "Non-binary"}
+
+[2024-09-02 21:16:42] ERROR: <class 'json.decoder.JSONDecodeError'>, Linea{"nombre": "Robena", "apellido": "Selcraig", "email": "rselcraig7@jugem.jp", "genero": Female}
+
+[2024-09-02 21:17:13] ERROR: <class 'json.decoder.JSONDecodeError'>, Linea{"nombre": "Nissy", "apellido": "Dell Casa", "email": "ndellcasa2@godaddy.com", "genero": "Female"
+[2024-09-02 21:17:13] ERROR: <class 'json.decoder.JSONDecodeError'>, Linea{"nombre": "Marj", "apellido": "Impy", email": "mimpy5@youku.com", "genero": "Non-binary"}
+[2024-09-02 21:17:13] ERROR: <class 'json.decoder.JSONDecodeError'>, Linea{"nombre": "Robena", "apellido": "Selcraig", "email": "rselcraig7@jugem.jp", "genero": Female}
