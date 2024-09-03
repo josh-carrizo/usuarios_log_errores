@@ -1,4 +1,5 @@
 from usuario import Usuario
+from datetime import datetime
 import json 
 instancias = []
 
@@ -13,7 +14,12 @@ with open('usuarios.txt') as usuarios:
             linea=usuarios.readline()
         except Exception as e:
             with open("error.log", "a+") as log:
-                log.write(f'ERROR!!!:{linea.strip()} -> {str(e)}\n')
+                log.seek(0)
+                print(log.read())
+                now = datetime.now()
+                log.write(f"[{now.strftime('%Y-%m-%d %H:%M:%S')}] ERROR: {type(e)}, Linea{linea}\n")
+                log.seek(0)
+                print(log.read())
                 
         linea = usuarios.readline()        
             
